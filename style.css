@@ -2,7 +2,6 @@
 p {
   max-width: 600px;
   padding-top: 20px;
-  /*color: #e6e6e6;*/
   color: #ffa64d;
   font-family: sans-serif;
   margin: auto;
@@ -45,6 +44,7 @@ header {
 }
 
 #newSec {
+  
   background-color: #006585;
   height: 100%;
 }
