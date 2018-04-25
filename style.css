@@ -1,8 +1,12 @@
 
 
 /* _*_*_*_*_*_*_*_*_*_*_*_*_main controll_*_*_*_*_*_*_*_*_*_*_*_ */
+h2 {
+  color: #ffa64d;
+  font-family: monospace;
+}
+
 p {
-  max-width: 600px;
   padding-top: 20px;
   color: #ffa64d;
   font-family: sans-serif;
@@ -45,6 +49,12 @@ a {
   font-family: monospace;
   font-size: 5vh;
   border: 2px solid #ffa64d;
+}
+
+#aboutMe {
+  border-top: 2px solid #ffffff;
+  background-color: #006585;
+  height: 100%;
 }
 
 #basicDivSize {
