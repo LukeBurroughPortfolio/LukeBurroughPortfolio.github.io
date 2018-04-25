@@ -7,9 +7,9 @@ $(window).scroll(
     function () {
     var currentTop = $(window).scrollTop();
     if (currentTop < this.previousTop) {
-        $("nav").show(800);
+        $("nav").show(500);
     } else {
-        $("nav").hide(800);
+        $("nav").hide(500);
     }
     this.previousTop = currentTop;
 });
