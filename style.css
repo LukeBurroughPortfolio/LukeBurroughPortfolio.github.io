@@ -80,8 +80,15 @@ a {
 
 #navBar {
   float: left;
-  margin-left: 15px;
+  margin-left: 5px;
   margin-top: 15px;
+}
+
+#navBar a {
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 20px;
+  padding-left: 10px;
 }
 
 #socal {
