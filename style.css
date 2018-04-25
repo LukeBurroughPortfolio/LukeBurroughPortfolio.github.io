@@ -15,6 +15,7 @@ body {
   height: 100%;
   margin: 0;
   background-color: #000120;
+  width: 100%;
 }
 
 header {
@@ -40,20 +41,42 @@ header {
 }
 
 #basicDivSize {
+  border-top: 2px solid #ffffff;
   height: 100%;
 }
 
 #newSec {
-  
+  border-top: 2px solid #ffffff;
   background-color: #006585;
   height: 100%;
 }
 
 #footer {
   background-color: #000120;
-  height: 30%;
-  border-top: 20px solid #006585;
+  height: 10%;
+  border-top: 2px solid #ffffff;
   color: #ffa64d;
   margin:  0 auto 0;
   text-align: center;
+}
+
+#navBarDesign {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid #ffffff;
+  background-color: #000120;
+}
+
+#navBar {
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+#socal {
+  float: right;
+  margin-right: 15px;
+  margin-top: 15px;
 }
