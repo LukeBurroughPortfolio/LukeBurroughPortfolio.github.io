@@ -1,23 +1,5 @@
 var clicked = 0;
 
-$(document).ready(function(){
-    $("#con2").click(function(){
-      alert ($("nav").hide(500);)
-      clicked = clicked + 1
-    });
-    $("#con3").click(function(){
-      $("nav").hide(500);
-      clicked = clicked + 1
-    });
-    $("#con4").click(function(){
-      $("nav").hide(500);
-      clicked = clicked + 1
-    });
-    $("#con5").click(function(){
-      $("nav").hide(500);
-      clicked = clicked + 1
-    });
-});
 //----------------------makes nave bar disappar------------//
 $(window).scroll(
     {
@@ -26,13 +8,7 @@ $(window).scroll(
     function () {
     var currentTop = $(window).scrollTop();
     if (currentTop > this.previousTop) {
-      if (clicked = 1) {
-          $("nav").hide(500);
-          clicked = clicked - 1
-      } else {
-          $("nav").show(500);
-          clicked = clicked - 1
-      }
+        $("nav").hide(500);
     } else {
         $("nav").show(500);
     }
