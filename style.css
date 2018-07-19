@@ -55,6 +55,9 @@ a {
   border-top: 2px solid #ffffff;
   background-color: #006585;
   height: 100%;
+  display: grid;
+  grid-template-columns: 10em 10em;
+  grid-template-rows: auto;
 }
 
 #basicDivSize {
