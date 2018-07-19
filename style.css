@@ -7,10 +7,9 @@ h2 {
 }
 
 p {
-  padding-top: 20px;
+  /*padding-top: 20px;*/
   color: #ffa64d;
   font-family: sans-serif;
-  margin: auto;
 }
 
 html {
@@ -18,10 +17,8 @@ html {
 }
 
 body {
-  height: 100%;
   margin: 0;
   background-color: #000120;
-  width: 100%;
 }
 
 header {
@@ -54,21 +51,22 @@ a {
 #aboutMe {
   border-top: 2px solid #ffffff;
   background-color: #006585;
-  height: 100%;
   display: grid;
-  grid-template-columns: 10em 10em;
+  grid-template-columns: 30% 70%;
   grid-template-rows: auto;
+  text-align: center;
 }
 
-#basicDivSize {
-  border-top: 2px solid #ffffff;
-  height: 100%;
+#aboutMe h2 {
+  grid-column: span 2;
 }
 
-#newSec {
-  border-top: 2px solid #ffffff;
-  background-color: #006585;
-  height: 100%;
+#aboutMe img {
+  text-align: center;
+}
+
+#aboutMe div {
+  grid-column: span 2;
 }
 
 #footer {
