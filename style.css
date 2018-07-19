@@ -63,6 +63,8 @@ a {
 
 #aboutMe img {
   text-align: center;
+  width: 250px;
+  height: auto;
 }
 
 #aboutMe div {
