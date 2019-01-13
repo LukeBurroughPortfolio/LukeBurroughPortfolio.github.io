@@ -36,6 +36,11 @@ a {
   font-family: sans-serif;
 }
 
+li {
+  float: right;
+  margin-right: 5px;
+}
+
 
 /* _*_*_*_*_*_*_*_*_*_*_*_*_all id controll_*_*_*_*_*_*_*_*_*_*_*_*_ */
 
@@ -104,7 +109,6 @@ a {
 }
 
 #socal {
-  float: right;
   margin-right: 15px;
   margin-top: 15px;
 }
