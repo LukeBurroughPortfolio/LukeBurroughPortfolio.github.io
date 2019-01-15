@@ -52,5 +52,3 @@ $(document).ready(function(){
       $("#con5").animate({opacity: '1'},200);
     });
 });
-
-//--------------controlling how nav appers-------------//
