@@ -2,17 +2,17 @@
 
 /* _*_*_*_*_*_*_*_*_*_*_*_*_main controll_*_*_*_*_*_*_*_*_*_*_*_ */
 h2 {
-  color: #ffa64d;
+  color: #ffffff;
   font-family: monospace;
 }
 
 h3 {
-  color: #ffa64d;
+  color: #ffffff;
   font-family: monospace;
 }
 
 p {
-  color: #ffa64d;
+  color: #ffffff;
   font-family: sans-serif;
 }
 
@@ -22,11 +22,11 @@ html {
 
 body {
   margin: 0;
-  background-color: #000120;
+  background-color: #308dc0;
 }
 
 header {
-  background-image: url("images/background.jpg");
+  background-image: url("images/rubberducky_pattern.png");
   height: 100vh;
   background-size: cover;
 
@@ -37,7 +37,7 @@ header {
 }
 
 a {
-  color: #ffa64d;
+  color: #ffffff;
   font-family: sans-serif;
 }
 
@@ -50,16 +50,16 @@ li {
 
 #landerText {
   padding: 10px;
-  color: #ffa64d;
+  color: #ffffff;
   font-family: monospace;
   font-size: 5vh;
-  border: 2px solid #ffa64d;
+  border: 2px solid #ffffff;
 }
 
 /* _*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_about me*_*_*_*_*_*_*_*_*_*_*_*_*_ */
 #aboutMe {
   border-top: 2px solid #ffffff;
-  background-color: #006585;
+  background-color: #e98411;
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: 60px 200px 50px;
@@ -115,6 +115,7 @@ li {
   display: grid;
   grid-template-columns: 10% auto 5% 20% 20%;
   grid-template-rows: 20% 20% 20% 20% ;
+  padding-bottom: 80px;
 }
 
 #BPLayout h3 {
@@ -142,7 +143,7 @@ li {
 /* _*_*_*_*_*_*_*_*_*_*_*_*_*_ nav + footer _*_*_*_*_*_*_*_*_*_*_ */
 
 #footer {
-  background-color: #006585;
+  background-color: #e98411;
   height: 10%;
   border-top: 2px solid #ffffff;
   color: #ffa64d;
