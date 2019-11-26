@@ -1,5 +1,4 @@
 var clicked = 0;
-
 //----------------------makes nave bar disappar------------//
 $(window).scroll(
     {
@@ -14,7 +13,6 @@ $(window).scroll(
     }
     this.previousTop = currentTop;
 });
-
 //-------------------------color change of navs----------//
 $(document).ready(function(){
     $("#con1").mouseenter(function(){
@@ -23,32 +21,16 @@ $(document).ready(function(){
     $("#con1").mouseleave(function(){
       $("#con1").animate({opacity: '1'},200);
     });
-
     $("#con2").mouseenter(function(){
       $("#con2").animate({opacity: '0.5'},200);
     });
     $("#con2").mouseleave(function(){
       $("#con2").animate({opacity: '1'},200);
     });
-
     $("#con3").mouseenter(function(){
       $("#con3").animate({opacity: '0.5'},200);
     });
     $("#con3").mouseleave(function(){
       $("#con3").animate({opacity: '1'},200);
-    });
-
-    $("#con4").mouseenter(function(){
-      $("#con4").animate({opacity: '0.5'},200);
-    });
-    $("#con4").mouseleave(function(){
-      $("#con4").animate({opacity: '1'},200);
-    });
-
-    $("#con5").mouseenter(function(){
-      $("#con5").animate({opacity: '0.5'},200);
-    });
-    $("#con5").mouseleave(function(){
-      $("#con5").animate({opacity: '1'},200);
     });
 });
