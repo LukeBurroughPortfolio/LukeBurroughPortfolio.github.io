@@ -13,6 +13,10 @@ p {
   color: #ffffff;
   font-family: jaf-domus, sans-serif;
 }
+ul {
+    color: #ffffff;
+    font-family: jaf-domus, sans-serif;
+}
 html {
   height: 100%;
 }
@@ -97,7 +101,7 @@ a {
 #BPLayout {
     display: grid;
     grid-template-columns: 10% 25% auto 35% 10%;
-    grid-template-rows: 20% 20% 20%;
+    grid-template-rows: 20% 20% 12% 20%;
     padding-bottom: 80px;
 }
     #BPLayout h3 {
@@ -120,8 +124,16 @@ a {
   font-family: jaf-domus, sans-serif;
   font-size: 1.2em;
   grid-column: 4;
-  grid-row: 2 / span 3;
+  grid-row: 2 ;
+  padding-bottom: 2em;
 }
+    #BPLayout ul {
+        text-align: left;
+        font-family: jaf-domus, sans-serif;
+        font-size: 1.2em;
+        grid-column: 4;
+        grid-row: 4;
+    }
 /* _*_*_*_*_*_*_*_*_*_*_*_*_*_ nav + footer _*_*_*_*_*_*_*_*_*_*_ */
 #footer {
   background-color: #000140;
