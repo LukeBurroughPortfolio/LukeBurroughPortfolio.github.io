@@ -35,18 +35,19 @@ a {
 }
 /* _*_*_*_*_*_*_*_*_*_*_*_*_all id controll_*_*_*_*_*_*_*_*_*_*_*_*_ */
 #landerText {
-  padding: 10px;
-  color: #000140;
-  font-family: jaf-domus, sans-serif;
-  font-size: 5vh;
-  border: 2px solid #000140;
+    padding: 20px;
+    color: #000140;
+    font-family: jaf-domus, sans-serif;
+    font-size: 5vh;
+    font-weight: bold;
+    border: 5px solid #000140;
 }
 /* _*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_about me*_*_*_*_*_*_*_*_*_*_*_*_*_ */
 #aboutMe {
   background-color: #000140;
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 60px 200px 50px;
+  grid-template-columns: 25% 15% 20% 20% 20%;
+  grid-template-rows: 80px 250px 50px;
   text-align: center;
 }
 #aboutMe h2 {
@@ -55,11 +56,9 @@ a {
   grid-column: 3;
 }
 #aboutMe img {
-    text-align: center;
-    width: 200px;
-    height: auto;
     grid-column: 2;
-    padding-right: 0.5em;
+    grid-row: 2;
+    padding-top: 2em;
 }
 #aboutMe div {
   grid-column: 3 / span 2 ;
@@ -135,7 +134,7 @@ a {
 }
 #footer p {
   font-family: jaf-domus, sans-serif;
-  grid-column: 2;
+  grid-column: 2 / span2;
   color: white
 }
 #Botsocial {
