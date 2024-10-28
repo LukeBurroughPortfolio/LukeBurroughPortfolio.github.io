@@ -76,7 +76,7 @@ a {
 #projects {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: auto;
+    
 }
     #projects h2 {
         font-family: jaf-domus, sans-serif;
@@ -88,7 +88,6 @@ a {
 #projects2 {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: auto;
 }
 
 #projects2 h2 {
@@ -101,7 +100,7 @@ a {
 #BPLayout {
     display: grid;
     grid-template-columns: 10% 25% auto 35% 10%;
-    grid-template-rows: 20% 20% 12% 20%;
+    grid-template-rows: 20% 30% 30%;
     padding-bottom: 80px;
 }
     #BPLayout h3 {
@@ -125,14 +124,15 @@ a {
   font-size: 1.2em;
   grid-column: 4;
   grid-row: 2 ;
-  padding-bottom: 2em;
+  padding-bottom: 3em;
 }
     #BPLayout ul {
         text-align: left;
         font-family: jaf-domus, sans-serif;
         font-size: 1.2em;
         grid-column: 4;
-        grid-row: 4;
+        grid-row: 3;
+        align-self:bottom;
     }
 /* _*_*_*_*_*_*_*_*_*_*_*_*_*_ nav + footer _*_*_*_*_*_*_*_*_*_*_ */
 #footer {
