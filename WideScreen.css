@@ -224,12 +224,8 @@ a {
             padding-top: 3em;
             grid-column: 2;
             grid-row: 2;
-            width: 12em;
-            height: 12em;
-        }
-
-        #aboutMe div {
-            grid-column: 3 / span 2;
+            width: 10em;
+            height: 10em;
         }
 
         #aboutMe p {
@@ -237,7 +233,8 @@ a {
             padding-top: 3%;
             padding-left: 3%;
             text-align: left;
-            grid-column: 4 ;
+            grid-column: 3 / span 2;
+            grid-row:2;
             font-size: 0.9em;
         }
     /* _*_*_*_*_*_*_*_*_*_*_*_*_*_ projects _*_*_*_*_*_*_*_*_*_*_*_ */
@@ -384,16 +381,12 @@ a {
             height: 12em;
         }
 
-        #aboutMe div {
-            grid-column: 3 / span 2;
-        }
-
         #aboutMe p {
             font-family: jaf-domus, sans-serif;
             padding-top: 3%;
             padding-left: 3%;
             text-align: left;
-            grid-column: 3;
+            grid-column: 3 / span 2;
             font-size: 0.9em;
         }
     /* _*_*_*_*_*_*_*_*_*_*_*_*_*_ projects _*_*_*_*_*_*_*_*_*_*_*_ */
@@ -549,15 +542,11 @@ a {
             height: 12em;
         }
 
-        #aboutMe div {
-            grid-column: 3 / span 2;
-        }
-
         #aboutMe p {
             font-family: jaf-domus, sans-serif;
             padding-top: 3%;
             text-align: left;
-            grid-column: 3;
+            grid-column: 3 / span 2;
         }
     /* _*_*_*_*_*_*_*_*_*_*_*_*_*_ projects _*_*_*_*_*_*_*_*_*_*_*_ */
     #projects {
@@ -716,9 +705,160 @@ a {
         #aboutMe p {
             font-family: jaf-domus, sans-serif;
             text-align: left;
-            font-size: 1.3em;
+            font-size: 1.1em;
             grid-column: 3 / span 2;
             grid-row: 2 ;
+        }
+    /* _*_*_*_*_*_*_*_*_*_*_*_*_*_ projects _*_*_*_*_*_*_*_*_*_*_*_ */
+    #projects {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+        #projects h2 {
+            font-family: jaf-domus, sans-serif;
+            font-size: 3em;
+            grid-column: 1;
+            text-align: center;
+        }
+
+    #projects2 {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+        #projects2 h2 {
+            font-family: jaf-domus, sans-serif;
+            font-size: 3em;
+            grid-column: 1;
+            text-align: center;
+        }
+    /* _*_*_*_*_*_*_*_*_*_ defult project layout _*_*_*_*_*_*_*_*_*_ */
+    #BPLayout {
+        display: grid;
+        grid-template-columns: 10% 40% 40% 10%;
+        grid-template-rows: 20% 30% 30%;
+        padding-bottom: 80px;
+    }
+
+        #BPLayout h3 {
+            font-family: jaf-domus, sans-serif;
+            font-size: 2em;
+            grid-column: 2;
+            grid-row: 1;
+            text-align: left;
+        }
+
+        #BPLayout iframe {
+            grid-column: 2;
+            grid-row: 2;
+            width: 28em;
+            height: 13em;
+        }
+
+        #BPLayout img {
+            grid-column: 2;
+            grid-row: 2;
+            width: 28em;
+            height: 13em;
+        }
+
+        #BPLayout p {
+            text-align: left;
+            font-family: jaf-domus, sans-serif;
+            font-size: 1em;
+            grid-column: 3;
+            grid-row: 2;
+        }
+    /* _*_*_*_*_*_*_*_*_*_*_*_*_*_ nav + footer _*_*_*_*_*_*_*_*_*_*_ */
+    #footer {
+        background-color: #000140;
+        height: 10%;
+        color: #ffa64d;
+        margin: 0 auto 0;
+        display: grid;
+    }
+
+        #footer p {
+            font-family: jaf-domus, sans-serif;
+            color: white;
+            text-align: center;
+            font-size: 1.3em;
+
+        }
+
+    #Botsocial {
+        display: none;
+    }
+
+    #navBarDesign {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 50px;
+        background-color: #000140;
+    }
+
+    #navBar {
+        float: left;
+        margin-left: 5px;
+        margin-top: 15px;
+    }
+
+        #navBar a {
+            text-decoration: none;
+            font-family: jaf-domus, sans-serif;
+            font-size: 20px;
+            padding-left: 10px;
+        }
+
+    #social {
+        float: right;
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+}
+@media only screen and (min-width: 1650px) {
+    /* _*_*_*_*_*_*_*_*_*_*_*_*_all id controll_*_*_*_*_*_*_*_*_*_*_*_*_ */
+    #landerText {
+        padding: 20px;
+        color: #000140;
+        font-family: jaf-domus, sans-serif;
+        font-size: 5vh;
+        font-weight: bold;
+        border: 5px solid #000140;
+    }
+    /* _*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_about me*_*_*_*_*_*_*_*_*_*_*_*_*_ */
+    #aboutMe {
+        background-color: #000140;
+        display: grid;
+        grid-template-columns: 10% 35% 10% 35% 10%;
+        grid-template-rows: 15% 75% 10%;
+        text-align: center;
+    }
+
+        #aboutMe h2 {
+            font-size: 3em;
+            font-family: jaf-domus, sans-serif;
+            grid-column: 1 / span 5;
+        }
+
+        #aboutMe img {
+            grid-column: 2;
+            grid-row: 2;
+            display: block;
+            margin-left: auto;
+            margin-right: 10%;
+            width: 13em;
+            height: 13em;
+        }
+
+        #aboutMe p {
+            font-family: jaf-domus, sans-serif;
+            text-align: left;
+            font-size: 1.3em;
+            grid-column: 3 / span 2;
+            grid-row: 2;
         }
     /* _*_*_*_*_*_*_*_*_*_*_*_*_*_ projects _*_*_*_*_*_*_*_*_*_*_*_ */
     #projects {
@@ -795,7 +935,6 @@ a {
             color: white;
             text-align: center;
             font-size: 1.3em;
-
         }
 
     #Botsocial {
