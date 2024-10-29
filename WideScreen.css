@@ -160,7 +160,8 @@ a {
         #footer p {
             font-family: jaf-domus, sans-serif;
             grid-column: 2 / span2;
-            color: white
+            color: white;
+            font-size: 0.8em;
         }
 
     #Botsocial {
@@ -315,7 +316,8 @@ a {
         #footer p {
             font-family: jaf-domus, sans-serif;
             grid-column: 2 / span2;
-            color: white
+            color: white;
+            font-size: 0.8em;
         }
 
     #Botsocial {
@@ -479,7 +481,8 @@ a {
         #footer p {
             font-family: jaf-domus, sans-serif;
             grid-column: 2 / span2;
-            color: white
+            color: white;
+            font-size: 1em;
         }
 
     #Botsocial {
@@ -714,6 +717,7 @@ a {
             font-family: jaf-domus, sans-serif;
             padding-top: 3%;
             text-align: left;
+            font-size: 1em;
         }
     /* _*_*_*_*_*_*_*_*_*_*_*_*_*_ projects _*_*_*_*_*_*_*_*_*_*_*_ */
     #projects {
